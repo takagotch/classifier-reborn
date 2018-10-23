@@ -45,6 +45,8 @@ docker build -t classifier-reborn .
 
 docker run --rm -it -v "$PWD":/usr/src/app classidier-reborn
 
+pry >
+require 'classifier-reborn'
 
 ```
 
