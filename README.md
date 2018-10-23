@@ -54,6 +54,9 @@ docker run --rm -it -v "$PWD":/usr/src/app -w /usr/src/app/docs -p 4000:4000 cla
 ```
 
 ```
+redis-server --daemonize yes
+rake validate
+
 
 ```
 
