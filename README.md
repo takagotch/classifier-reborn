@@ -43,6 +43,9 @@ git clone git@github.com:jekyll/classidier-reborn.git
 cd classifier-reborn
 docker build -t classifier-reborn .
 
+docker run --rm -it -v "$PWD":/usr/src/app classidier-reborn
+
+
 ```
 
 ```
