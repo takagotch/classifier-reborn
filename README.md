@@ -47,6 +47,7 @@ docker run --rm -it -v "$PWD":/usr/src/app classidier-reborn
 
 pry >
 require 'classifier-reborn'
+classifier = ClassifierReborn::Bayes.new '', ''
 
 ```
 
