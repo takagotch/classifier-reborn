@@ -49,7 +49,7 @@ pry >
 require 'classifier-reborn'
 classifier = ClassifierReborn::Bayes.new '', ''
 
-docker run --rm -it -v "$PWD":/usr/src/app -w /usr/src/app/docs -p 4000:4000
+docker run --rm -it -v "$PWD":/usr/src/app -w /usr/src/app/docs -p 4000:4000 classifier-reborn jekyll s -H 0.0.0.0
 ```
 
 ```
