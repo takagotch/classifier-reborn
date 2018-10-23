@@ -26,3 +26,27 @@ lsi.classify ""
 
 gem 'classifier-reborn-jruby', platforms: :java
 ```
+
+```
+git clone git@github.com:jekyll/classifier-reborn.git
+cd classifier-reborn
+bundle install
+gem install redis
+rake
+
+redis-server --demonize yes
+rake
+rake bench
+rake validate
+
+git clone git@github.com:jekyll/classidier-reborn.git
+cd classifier-reborn
+docker build -t classifier-reborn .
+
+```
+
+```
+
+```
+
+
