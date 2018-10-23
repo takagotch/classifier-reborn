@@ -60,6 +60,8 @@ rake validate
 require 'classifier-reborn'
 include ClasifierReborn::ClassifierValidator
 
+tsv_file_path = "test/data/corpus/SMSSpamCollection.tsv"
+
 
 ```
 
